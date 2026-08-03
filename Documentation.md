@@ -1,24 +1,8 @@
-# 
-
-# **HSC SOFTWARE ENGINEERING** 
-
-# **ULTIMATE PERSONAL PROJECT**
-
-# 
-
+# **StudyZone**
+## **Focus, Build, Improve.**
 # **![][image1]**
 
-# 
-
-#        **StudyZone — Focus, Build, Improve.**                      
-
-#  DEVELOPED BY LEVIN SHAO
-
-# 
-
-# 
-
-# 
+### DEVELOPED BY TechLemon99
 
 # **✤ Section 1 \- IDENTIFYING AND DEFINING**
 
@@ -401,7 +385,7 @@ Examples include the registration system which validates usernames format, usern
 
 ### **Storage and Retrieval**
 
-StudyZone uses JSON databases to permanently store user information. The software separates information into two databases. **Users.json s**tores key account information, such as an account’s username, email, hashed password, last login date (required for the streak system), as well as their current and best login streaks. On the other hand, **data.json** stores content that is not related to a user’s account, but rather more related to their statistics and progress data they created within the main features of the app, such as their stored tasks, goals, habits, and notebook pages. The program retrieves data using dedicated functions within the data\_manager.py file which is the main handler for user data. These functions centralise all file access so that other parts of the program never need to manipulate JSON files directly. In external files that requires access to the database in order to function, data\_manager.py will be integrated into the external file so that the external file will be able to use the methods needed for data handling.
+StudyZone uses JSON databases to permanently store user information. The software separates information into two databases. **Users.json** stores key account information, such as an account’s username, email, hashed password, last login date (required for the streak system), as well as their current and best login streaks. On the other hand, **data.json** stores content that is not related to a user’s account, but rather more related to their statistics and progress data they created within the main features of the app, such as their stored tasks, goals, habits, and notebook pages. The program retrieves data using dedicated functions within the data\_manager.py file which is the main handler for user data. These functions centralise all file access so that other parts of the program never need to manipulate JSON files directly. In external files that requires access to the database in order to function, data\_manager.py will be integrated into the external file so that the external file will be able to use the methods needed for data handling.
 
 ### **Authentication**
 
@@ -601,15 +585,15 @@ Lastly, if the support system emails feedback to the developer, then users must 
 
 | Users | Plus | Minus | Implications |
 | :---- | :---- | :---- | :---- |
-| Ray Wong | Extremely satisfying to use Friendly user interface Almost zero lag and most errors are handled well Extremely useful tools Data is stored even if you exit app | Some features are left undeveloped which is kind of sad, it would be better if more features could be developed, for example the creativity tab currently only has one feature Colour scheme is kinda repetitive, would recommend expanding colour palette | Levin has developed a very good app that for sure has the potential to make millions of people achieve better lives. It is an excellent app dedicated to self-improvement and studying, with plenty of decent tools. However the app could be better if more unique features are developed. Overall it’s an excellent app I would definitely consider using if it formally releases. |
-| Ronen Gupta | Easy to use Very use friendly Developed features work perfectly good features (timer, flashcards) for a study app, would consider using. | Some features are repetitive some are kind of unrelated to a study app. | Easy to use Plethora of features, however would benefit from those which are related |
-| Victor Guo | friendly interface detailed functions performance is optimized well | some features are redundant such as the goal planner too many features, strays off the main goal of study app | overall quite easy to use, however some features could be removed for a more minimalistic interface |
+| @RayBirbz | Extremely satisfying to use Friendly user interface Almost zero lag and most errors are handled well Extremely useful tools Data is stored even if you exit app | Some features are left undeveloped which is kind of sad, it would be better if more features could be developed, for example the creativity tab currently only has one feature Colour scheme is kinda repetitive, would recommend expanding colour palette | TechLemon99 has developed a very good app that for sure has the potential to make millions of people achieve better lives. It is an excellent app dedicated to self-improvement and studying, with plenty of decent tools. However the app could be better if more unique features are developed. Overall it’s an excellent app I would definitely consider using if it formally releases. |
+| @RonenGupta | Easy to use Very use friendly Developed features work perfectly good features (timer, flashcards) for a study app, would consider using. | Some features are repetitive some are kind of unrelated to a study app. | Easy to use Plethora of features, however would benefit from those which are related |
+| @CursedToxic | friendly interface detailed functions performance is optimized well | some features are redundant such as the goal planner too many features, strays off the main goal of study app | overall quite easy to use, however some features could be removed for a more minimalistic interface |
 
 ### **Response to Peer Feedback**
 
 Peer Feedback had been a key driver for decision-making during development. My plans were heavily influenced by what the users (in this case being my peers) actually wanted. In this case, peers were satisfied that their wants and needs were able to make it into the program. However, they are somewhat dissatisfied at the fact that the program contains too many features deemed “unnecessary” or “irrelevant”, which is caused by the name of the application “StudyZone” making them believe that this is an app used only for studying purposes. What I failed to highlight is the fact that the app is also multi-functional, meaning that there will be many more components to the app than only studying tools. For example, the reaction time trainer and memory trainer are built for self-improvement purposes rather than studying. 
 
-Feedback also shows that users are slightly displeased with the repetitiveness in some aspects of the app, such as the uncanny similarity between the digital notebook and the wellbeing journal. These two features, although may look like they’d overlap, actually serve fundamentally different features and purposes, one being used for note-taking (studying) and the other being used for mindfulness (mental health). Tester Ray Wong has also pointed out the repetitiveness in the colour scheme of the app, which I do agree with. In the future, the colour palette used for designing the app will be expanded and some parts of the app may be redesigned with different colours. This highlights the key fact that feedback is extremely important for software applications since they reveal the wants and needs of the users, and software is solely developed for the users to enjoy, meaning that their opinions matter significantly.
+Feedback also shows that users are slightly displeased with the repetitiveness in some aspects of the app, such as the uncanny similarity between the digital notebook and the wellbeing journal. These two features, although may look like they’d overlap, actually serve fundamentally different features and purposes, one being used for note-taking (studying) and the other being used for mindfulness (mental health). Tester @RayBirbz has also pointed out the repetitiveness in the colour scheme of the app, which I do agree with. In the future, the colour palette used for designing the app will be expanded and some parts of the app may be redesigned with different colours. This highlights the key fact that feedback is extremely important for software applications since they reveal the wants and needs of the users, and software is solely developed for the users to enjoy, meaning that their opinions matter significantly.
 
 ## **⇒ 6.2 \- Secure Software Design and Data Handling ⇐**
 

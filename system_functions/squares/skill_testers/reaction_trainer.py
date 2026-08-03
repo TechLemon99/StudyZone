@@ -56,7 +56,7 @@ def show_reaction_trainer(app):
     sub_text = canvas.create_text(0, 0, text="Welcome to the Reaction Time Trainer!", fill="white", font=("Segoe UI", 18))
 
     # Dynamically center text
-    def center_text(event=None):
+    def center_text(event=None): 
         width = canvas.winfo_width()
         height = canvas.winfo_height()
 
@@ -73,7 +73,7 @@ def show_reaction_trainer(app):
     after_id = None
 
     # Major Click Handler
-    def on_canvas_click(event):
+    def on_canvas_click(event): # event in brackets since 
         nonlocal game_started, can_click, start_time, after_id
 
         # Start new round
