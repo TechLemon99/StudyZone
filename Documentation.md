@@ -1,8 +1,7 @@
 # **StudyZone**
 ## **Focus, Build, Improve.**
+### **DEVELOPED BY TechLemon99**
 # **![](/img_assets/StudyZone.png)**
-
-### DEVELOPED BY TechLemon99
 
 # **✤ Section 1 \- IDENTIFYING AND DEFINING**
 
