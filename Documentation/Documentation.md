@@ -218,7 +218,7 @@ Improvements will be implemented in stages, following the WAgile approach. After
 
 * Show the modular structure of the system and relationships between modules.
 
-![](/Documentation/img_doc/StructureChart.png)
+![](/Documentation/img_doc/ClassDiagram.png)
 
 
 ## **⇒ 3.4 \- IPO Chart ⇐**
